@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.NUMAD25Fa_QianLi.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.NUMAD25Fa_QianLi.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="BtnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">16dp</item>
+    </style>
+</resources>

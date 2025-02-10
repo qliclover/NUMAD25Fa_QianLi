@@ -8,6 +8,25 @@
     android:background="@color/background_green"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:backgroundTint="#4B5E33"
+        android:paddingLeft="26dp"
+        android:paddingTop="10dp"
+        android:paddingRight="26dp"
+        android:paddingBottom="10dp"
+        android:radius="0dp"
+        android:text="@string/calc"
+        android:textSize="16sp"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        android:onClick="openQuickCalc"/>
+
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
