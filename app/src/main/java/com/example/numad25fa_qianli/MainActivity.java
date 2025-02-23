@@ -52,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openContactsCollector(View view) {
+        Intent intent = new Intent(MainActivity.this, ContactsCollector.class);
+        startActivity(intent);
+    }
 
 
 }
